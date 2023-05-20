@@ -1,0 +1,23 @@
+{
+	"name": "${localWorkspaceFolderBasename}",
+    "dockerComposeFile": "compose.yaml",
+	"service": "python",
+	"workspaceFolder": "/workspace",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-toolsai.jupyter",
+				"njpwerner.autodocstring",
+				"mosapride.zenkaku",
+				"streetsidesoftware.code-spell-checker",
+				"mhutchie.git-graph",
+				"eamodio.gitlens",
+				"GitHub.vscode-pull-request-github",
+				"bierner.markdown-preview-github-styles",
+				"mechatroner.rainbow-csv"
+			]
+		}
+	}
+}

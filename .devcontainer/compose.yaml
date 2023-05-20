@@ -1,0 +1,10 @@
+services:
+  python:
+    build:
+      context: ./python
+      dockerfile: Dockerfile
+    environment:
+      TZ: Asia/Tokyo
+    volumes:
+      - ..:/workspace:cached
+    command: sleep infinity
